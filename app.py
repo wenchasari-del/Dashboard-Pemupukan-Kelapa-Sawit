@@ -19,7 +19,7 @@ load_css()
 # ==========================
 # Membaca Data
 # ==========================
-df = pd.read_excel("data/data_pemupukan.xlsx")
+df = pd.read_excel("data/data_pemupukan.CSV")
 df["Tanggal"] = pd.to_datetime(
     df["Tanggal"],
     dayfirst=True,
